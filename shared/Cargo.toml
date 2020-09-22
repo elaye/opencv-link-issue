@@ -1,0 +1,13 @@
+[package]
+name = "shared"
+version = "0.1.0"
+authors = ["null"]
+edition = "2018"
+
+[dependencies]
+opencv = "0.45.1"
+
+[lib]
+name = "shared"
+crate-type = ["dylib"]
+path = "src/lib.rs"
